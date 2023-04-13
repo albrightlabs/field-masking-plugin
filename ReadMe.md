@@ -20,7 +20,7 @@ Run either of the following commands:
 * From the plugin root, run `git pull`
 
 ## 🚨 Are there any requirements for this plugin?
-None other than adding the desired mask class to the `cssClass` config for a specific October CMS form field.
+None other than adding the desired mask class to the `cssClass` config for a specific October CMS form field. For example, adding `cssClass: mask-phone_us` will mask the form field as a US phone number.
 
 ## ✨ Future plans
 * None at this time but please send suggestions to support@albrightlabs.com.

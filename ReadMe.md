@@ -12,7 +12,7 @@ Helpful if you have many form fields that require some specific formatting for c
 ## 🖥️ How do I install this plugin?
 1. Clone this repository into `plugins/albrightlabs/fieldmasking`
 2. Run the console command `php artisan october:migrate`
-3. Add any class found in the [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html) to an October CMS form field in the `cssClass` config.
+3. Add any class found in the [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html) to an October CMS form field in the `cssClass` config with the prefix `mask-`.
 
 ## ⏫ How do I update this plugin?
 Run either of the following commands:

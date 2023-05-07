@@ -1,8 +1,6 @@
 
 # 🔔 Field Masking Plugin
 
-### 🚨 Requires OctoberCMS 2.0
-
 ## ✨ What does this plugin do?
 Provides the ability to mask form fields using the ignorescobar jquery mask plugin.
 

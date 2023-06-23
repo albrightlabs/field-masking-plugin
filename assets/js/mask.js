@@ -3,7 +3,7 @@
 // Example: to mask a phone number input add new line cssClass: mask-phone_us
 //
 
-$(document).ready(function(){
+function initMask() {
     $('.mask-date .form-control').mask('00/00/0000');
     $('.mask-time .form-control').mask('00:00:00');
     $('.mask-hours .form-control').mask('00.0', {reverse: true});
@@ -39,4 +39,14 @@ $(document).ready(function(){
         }
     });
     $('.mask-selectonfocus .form-control').mask("00/00/0000", {selectOnFocus: true});
-});
+};
+
+// if (oc.useTurbo && oc.useTurbo()) {
+    addEventListener('page:loaded', function() {
+        initMask();
+    });
+// } else {
+    $(window).on("load", function() {
+        initMask();
+    });
+// }

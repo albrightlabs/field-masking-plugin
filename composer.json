@@ -4,12 +4,16 @@
     "description": "Adds the ability to mask form fields simply by adding a CSS class to the field config.",
     "require": {
         "composer/installers": "~1.0",
-        "october/system": ">=2.0",
         "igorescobar/jquery-mask-plugin": "^1.14"
     },
     "config": {
         "allow-plugins": {
             "composer/installers": true
         }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php copy-mask.php"
+        ]
     }
 }

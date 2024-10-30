@@ -46,7 +46,7 @@ class Plugin extends PluginBase
          * Adds field masking plugin and mask js
          */
         Event::listen('backend.page.beforeDisplay', function($controller, $action, $params){
-            $controller->addJs('/plugins/albrightlabs/fieldmasking/vendor/igorescobar/jquery-mask-plugin/dist/jquery.mask.min.js');
+            $controller->addJs('/plugins/albrightlabs/fieldmasking/assets/js/jquery.mask.min.js');
             $controller->addJs('/plugins/albrightlabs/fieldmasking/assets/js/mask.js');
         });
     }

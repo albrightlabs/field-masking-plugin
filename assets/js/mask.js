@@ -11,7 +11,7 @@ function initMask() {
     $('.mask-cep .form-control').mask('00000-000');
     $('.mask-phone .form-control').mask('0000-0000');
     $('.mask-phone_with_ddd .form-control').mask('(00) 0000-0000');
-    $('.mask-phone_us .form-control').mask('(000) 000-0000');
+    $('.mask-phone_us .form-control').mask('(000) 000-0000 x0000');
     $('.mask-mixed .form-control').mask('AAA 000-S0S');
     $('.mask-cpf .form-control').mask('000.000.000-00', {reverse: true});
     $('.mask-cnpj .form-control').mask('00.000.000/0000-00', {reverse: true});
